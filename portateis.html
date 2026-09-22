@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portáteis: compara modelos e preços | Radar de Escolhas</title>
+
+    <meta name="description" content="Compara portáteis por preço, desempenho, memória, armazenamento e utilização no Radar de Escolhas.">
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #222;
+            background: #f7f7f7;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 22px 20px;
+        }
+
+        .header-content {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #f5b400;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        .back {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: #555;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 42px;
+            line-height: 1.15;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            font-size: 20px;
+            color: #666;
+            max-width: 800px;
+            margin-bottom: 45px;
+        }
+
+        .filters {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .filter {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px 15px;
+            color: #555;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .product {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .product-icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .product h2 {
+            font-size: 23px;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            color: #666;
+            margin-bottom: 18px;
+        }
+
+        .specs {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .specs li {
+            padding: 6px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .price {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            display: inline-block;
+            background: #111;
+            color: white;
+            text-decoration: none;
+            padding: 11px 16px;
+            border-radius: 7px;
+            font-weight: bold;
+        }
+
+        .button.secondary {
+            background: #eee;
+            color: #222;
+        }
+
+        .notice {
+            background: #fff3cc;
+            border-left: 5px solid #f5b400;
+            padding: 20px;
+            margin: 40px 0;
+            border-radius: 6px;
+        }
+
+        footer {
+            background: #111;
+            color: #aaa;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 750px) {
+
+            h1 {
+                font-size: 32px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .products {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-content">
+
+        <div class="logo">
+            Radar de <span>Escolhas</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="tecnologia.html">Tecnologia</a>
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main class="container">
+
+    <a href="tecnologia.html" class="back">← Voltar à Tecnologia</a>
+
+    <h1>Portáteis</h1>
+
+    <p class="intro">
+        Compara portáteis por preço, desempenho e características.
+        Selecionamos modelos para diferentes necessidades e orçamentos,
+        desde equipamentos para estudar até máquinas mais exigentes.
+    </p>
+
+
+    <div class="filters">
+
+        <div class="filter">💰 Até 800€</div>
+
+        <div class="filter">💻 Estudo e trabalho</div>
+
+        <div class="filter">⚡ Desempenho</div>
+
+        <div class="filter">🎮 Gaming</div>
+
+    </div>
+
+
+    <div class="notice">
+
+        <strong>Como funciona?</strong>
+
+        <p>
+            O Radar de Escolhas compara características e preços para te
+            ajudar a perceber quais os equipamentos que fazem mais sentido
+            para cada utilização.
+        </p>
+
+    </div>
+
+
+    <section class="products">
+
+
+        <article class="product">
+
+            <div class="product-icon">💻</div>
+
+            <h2>Lenovo IdeaPad Slim 3</h2>
+
+            <p class="description">
+                Uma opção equilibrada para estudo, trabalho e utilização
+                diária.
+            </p>
+
+            <ul class="specs">
+
+                <li><strong>Processador:</strong> AMD Ryzen 7</li>
+
+                <li><strong>RAM:</strong> 16GB</li>
+
+                <li><strong>SSD:</strong> 512GB</li>
+
+                <li><strong>Ecrã:</strong> 15.3"</li>
+
+            </ul>
+
+            <div class="price">
+                ~600€
+            </div>
+
+            <div class="buttons">
+
+                <a href="#" class="button">
+                    Ver produto
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="product">
+
+            <div class="product-icon">💻</div>
+
+            <h2>Lenovo IdeaPad Slim 3 14"</h2>
+
+            <p class="description">
+                Formato compacto para quem valoriza mobilidade sem abdicar
+                de uma configuração equilibrada.
+            </p>
+
+            <ul class="specs">
+
+                <li><strong>Processador:</strong> Intel Core i5</li>
+
+                <li><strong>RAM:</strong> 16GB</li>
+
+                <li><strong>SSD:</strong> 512GB</li>
+
+                <li><strong>Ecrã:</strong> 14"</li>
+
+            </ul>
+
+            <div class="price">
+                ~600–650€
+            </div>
+
+            <div class="buttons">
+
+                <a href="#" class="button">
+                    Ver produto
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="product">
+
+            <div class="product-icon">💻</div>
+
+            <h2>ASUS Vivobook 16</h2>
+
+            <p class="description">
+                Ecrã grande e configuração equilibrada para produtividade
+                e utilização diária.
+            </p>
+
+            <ul class="specs">
+
+                <li><strong>Processador:</strong> AMD Ryzen</li>
+
+                <li><strong>RAM:</strong> 16GB</li>
+
+                <li><strong>SSD:</strong> 512GB</li>
+
+                <li><strong>Ecrã:</strong> 16"</li>
+
+            </ul>
+
+            <div class="price">
+                ~630–740€
+            </div>
+
+            <div class="buttons">
+
+                <a href="#" class="button">
+                    Ver produto
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="product">
+
+            <div class="product-icon">💻</div>
+
+            <h2>HP 15</h2>
+
+            <p class="description">
+                Uma alternativa equilibrada para utilização diária,
+                estudo e trabalho.
+            </p>
+
+            <ul class="specs">
+
+                <li><strong>Processador:</strong> AMD Ryzen 5</li>
+
+                <li><strong>RAM:</strong> 16GB</li>
+
+                <li><strong>SSD:</strong> 512GB</li>
+
+                <li><strong>Ecrã:</strong> 15.6"</li>
+
+            </ul>
+
+            <div class="price">
+                ~600€
+            </div>
+
+            <div class="buttons">
+
+                <a href="#" class="button">
+                    Ver produto
+                </a>
+
+            </div>
+
+        </article>
+
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        Radar de Escolhas — Descobre. Compara. Escolhe.
+    </p>
+
+</footer>
+
+</body>
+
+</html>
