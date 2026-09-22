@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tecnologia | Radar de Escolhas</title>
+
+    <meta name="description" content="Guias, comparações e artigos sobre computadores, portáteis, gadgets e tecnologia no Radar de Escolhas.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f7f5;
+            color: #171717;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111111;
+            color: white;
+            padding: 22px 6%;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        .logo span {
+            color: #f5b400;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 6%;
+        }
+
+        .intro {
+            margin-bottom: 50px;
+        }
+
+        .intro h1 {
+            font-size: 48px;
+            line-height: 1.1;
+            margin-bottom: 15px;
+        }
+
+        .intro p {
+            color: #666;
+            font-size: 19px;
+            max-width: 700px;
+        }
+
+        .articles {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .article-card {
+            background: white;
+            padding: 28px;
+            border-radius: 14px;
+            text-decoration: none;
+            color: #171717;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .article-icon {
+            font-size: 35px;
+            margin-bottom: 18px;
+        }
+
+        .article-card h2 {
+            font-size: 22px;
+            line-height: 1.3;
+            margin-bottom: 10px;
+        }
+
+        .article-card p {
+            color: #666;
+            font-size: 15px;
+        }
+
+        .read {
+            display: inline-block;
+            margin-top: 15px;
+            color: #d99400;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        footer {
+            margin-top: 100px;
+            padding: 30px 6%;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+
+        @media (max-width: 800px) {
+            .articles {
+                grid-template-columns: 1fr;
+            }
+
+            .intro h1 {
+                font-size: 38px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-content">
+
+        <div class="logo">
+            Radar de <span>Escolhas</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="tecnologia.html">Tecnologia</a>
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section class="intro">
+
+        <h1>Tecnologia</h1>
+
+        <p>
+            Guias, comparações e informação útil para te ajudar a escolher
+            computadores, portáteis, gadgets e outros produtos tecnológicos.
+        </p>
+
+    </section>
+
+    <section class="articles">
+
+        <a href="melhores-portateis-estudar-2026.html" class="article-card">
+
+            <div class="article-icon">💻</div>
+
+            <h2>Melhores Portáteis para Estudar em 2026</h2>
+
+            <p>
+                Descobre quais as características mais importantes num portátil
+                para estudar e o que deves procurar antes de comprar.
+            </p>
+
+            <span class="read">Ler artigo →</span>
+
+        </a>
+
+        <a href="como-escolher-portatil.html" class="article-card">
+
+            <div class="article-icon">🔎</div>
+
+            <h2>Como Escolher um Portátil</h2>
+
+            <p>
+                Processador, RAM, ecrã, autonomia e muito mais. Aprende o que
+                realmente deves comparar antes de escolher.
+            </p>
+
+            <span class="read">Ler artigo →</span>
+
+        </a>
+
+        <a href="ssd-ram-processador.html" class="article-card">
+
+            <div class="article-icon">⚙️</div>
+
+            <h2>SSD, RAM e Processador</h2>
+
+            <p>
+                Percebe a função de cada componente e descobre onde faz mais
+                sentido investir quando compras um computador.
+            </p>
+
+            <span class="read">Ler artigo →</span>
+
+        </a>
+
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Radar de Escolhas. Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
